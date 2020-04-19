@@ -1,0 +1,55 @@
+
+Scenes:
+  - Name: CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+  - Name: CenterPanelSlowdown
+    Composition:
+      - Base
+      - CameraMotion
+      - Slowdown
+  - Name: ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+  - Name: ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+  - Name: ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+  - Name: ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+  - Name: ModeL2Slowdown
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Slowdown
+  - Name: ModeL3Slowdown
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Slowdown
+  - Name: ModeL4Slowdown
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Slowdown
+  - Name: ModeL5Slowdown
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Slowdown

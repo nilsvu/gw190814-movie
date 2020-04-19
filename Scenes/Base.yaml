@@ -1,0 +1,175 @@
+
+Include:
+  - Datasources
+  - Resolutions/High
+  - Background/Skybox
+
+Animation:
+  Speed: 200
+  Crop: [1000, 63800]
+
+View:
+  Background: [0., 0., 0.]
+  OrientationAxesVisibility: False
+
+WaveformToVolume:
+  Size: 120
+  RadialScale: 8
+  InvertRotationDirection: True
+  EllMax: 3
+  ActivationOffset: 10
+  ActivationWidth: 10
+  DeactivationWidth: 10
+  SpatialResolution: 300
+  KeepEveryNthTimestep: 50
+  StoreIndividualModes: False
+  Polarizations: ["Plus"]
+
+VolumeRepresentation:
+  Representation: Volume
+  VolumeRenderingMode: GPU Based
+  Shade: True
+  ScalarOpacityUnitDistance: 5.
+  ColorBy: Plus strain
+
+TransferFunctions:
+  - Field: Plus strain
+    TransferFunction:
+      Peaks:
+        NumPeaks: 10
+        FirstPeak:
+          Position: 0.003
+          Opacity: 0.03
+        LastPeak:
+          Position: 0.02
+          Opacity: 0.7
+        Colormap: Rainbow Uniform
+  - Field: Age
+    TransferFunction:
+      Custom:
+        Points:
+          - Position: 0
+            Opacity: 0
+          - Position: 0
+            Opacity: 0.6
+          - Position: 200
+            Opacity: 0
+          - Position: 300
+            Opacity: 0
+        Colormap:
+          Name: Grayscale
+          Invert: True
+  - Field: DimlessRicciScalar
+    TransferFunction:
+      Custom:
+        Points:
+          - Position: 0.5
+            Opacity: 1
+          - Position: 0.55
+            Opacity: 1
+        Colormap:
+          Points:
+            - Position: 0.52
+              Color: [0, 0, 0]
+            - Position: 0.56
+              Color: [0.05098039216, 0.3843137255, 0.4509803922]
+          ColorSpace: RGB
+
+Trajectories:
+  - Name: PrimaryObject
+    Objects:
+      - Sphere:
+          Radius: 2
+          ThetaResolution: 100
+          PhiResolution: 100
+        Visibility:
+          Start: 0
+          End: 56000
+        Representation:
+          AmbientColor: [0., 0., 0.]
+          DiffuseColor: [0., 0., 0.]
+          Specular: 0.2
+          SpecularPower: 10
+          SpecularColor: [1., 1., 1.]
+  - Name: SecondaryObject
+    Objects:
+      - Sphere:
+          Radius: 0.2
+          ThetaResolution: 100
+          PhiResolution: 100
+        Visibility:
+          Start: 0
+          End: 56000
+        Representation:
+          AmbientColor: [0., 0., 0.]
+          DiffuseColor: [0., 0., 0.]
+          Specular: 0.2
+          SpecularPower: 10
+          SpecularColor: [1., 1., 1.]
+    Tail:
+      LineWidth: 2
+      ColorBy: Age
+      Visibility:
+        Start: 0
+        End: 56000
+  - Name: SecondaryHorizonTail
+    TimeShift:
+      PreShift: 56000
+    Tail:
+      LineWidth: 2
+      ColorBy: Age
+      Visibility:
+        Start: 56000
+        End: 62621
+
+# TODO: Exactly align the merger in the horizon data with the waveform and
+# trajectories. Currently it's shifted to merge at t=56000+6621.
+Horizons:
+  - Name: PrimaryHorizon
+    TimeShift:
+      PreShift: 56000
+    Visibility:
+      Start: 56000
+      End: 62621
+    Representation:
+      Representation: Surface
+      ColorBy: DimlessRicciScalar
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]
+  - Name: SecondaryHorizon
+    TimeShift:
+      PreShift: 56000
+    Visibility:
+      Start: 56000
+      End: 62621
+    Representation:
+      Representation: Surface
+      ColorBy: DimlessRicciScalar
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]
+  - Name: CommonHorizon
+    TimeShift:
+      PreShift: 56000
+    Visibility:
+      Start: 62621
+      End: 64000
+    Representation:
+      Representation: Surface
+      ColorBy: DimlessRicciScalar
+      AmbientColor: [0., 0., 0.]
+      DiffuseColor: [0., 0., 0.]
+      Specular: 0.2
+      SpecularPower: 10
+      SpecularColor: [1., 1., 1.]
+
+CameraShots:
+  - Position: [0., -260., 30.]
+    ViewUp: [0., 0., 1.]
+    FocalPoint: [0., 0., 0.]
+    ViewAngle: 60.

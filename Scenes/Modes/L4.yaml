@@ -1,0 +1,13 @@
+# Overrides to show only the 2-2 Mode of the strain
+
+WaveformToVolume:
+  Replace:
+    EllMax: 4
+    Modes: ["(4, 4) Mode"]
+
+TransferFunctions:
+  - Element: 0
+    TransferFunction:
+      Peaks:
+        Replace:
+          Colormap: Blues

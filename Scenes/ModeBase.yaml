@@ -1,0 +1,17 @@
+# The four mode panels showing a panorama shot of a single mode for the entire
+# duration
+
+WaveformToVolume:
+  Replace:
+    NormalizeEachMode: True
+
+TransferFunctions:
+  - Element: 0
+    TransferFunction:
+      Peaks:
+        FirstPeak:
+          Replace:
+            Position: 0.01
+        LastPeak:
+          Replace:
+            Position: 0.15

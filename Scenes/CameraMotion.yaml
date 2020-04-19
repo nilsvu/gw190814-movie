@@ -1,0 +1,22 @@
+# Show closeups of the binary at the beginning and at merger
+
+Replace:
+  CameraShots:
+    - Position: [0., -16., 8.]
+      ViewUp: [0., 0., 1.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 60.
+    - Time: 5500
+      SwingDuration: 20
+      Position:
+        - [0., -100., 80.]
+        - [0., -260., 30.]
+      ViewUp: [0., 0., 1.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 60.
+    - Time: 62500
+      SwingDuration: 5
+      Position: [-6., 1., 6.]
+      ViewUp: [0., 0., 1.]
+      FocalPoint: [0., 0., 0.]
+      ViewAngle: 60.

@@ -1,0 +1,4 @@
+Animation:
+  Replace:
+    Speed: 3100
+    FrameRate: 60 # Try to resolve every wave cycle with a few frames

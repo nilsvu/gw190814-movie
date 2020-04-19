@@ -1,0 +1,10 @@
+
+Animation:
+  Replace:
+    # The speed is currently limited by the time resolution of the horizon data.
+    # We can either try to interpolate between horizon observations or generate
+    # higher-resolution horizon data.
+    Speed: 10
+    # The common horizon appears at t=6621M in the horizon data (plunging
+    # from t~6600)
+    Crop: [62500, 62750]

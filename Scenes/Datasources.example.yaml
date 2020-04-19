@@ -1,0 +1,25 @@
+
+Replace:
+    Datasources:
+      Skybox: /scratch/example/skybox.png
+      Waveform:
+        File: /scratch/example/data/rhOverM_Asymptotic_GeometricUnits_CoM.h5
+        Subfile: Extrapolated_N2.dir
+      SwshCache: /scratch/example/swsh_cache
+      Horizons:
+        PrimaryHorizon: /scratch/example/data/Horizons/AhA.pvd
+        SecondaryHorizon: /scratch/example/data/Horizons/AhB.pvd
+        CommonHorizon: /scratch/example/data/Horizons/AhC.pvd
+      Trajectories:
+        PrimaryObject:
+          File: /scratch/example/data/Horizons.h5
+          Subfile: AhA.dir
+        SecondaryObject:
+          File: /scratch/example/data/Horizons.h5
+          Subfile: AhB.dir
+        PrimaryHorizonTail:
+          File: /scratch/example/data/Horizons.h5
+          Subfile: AhA.dir
+        SecondaryHorizonTail:
+          File: /scratch/example/data/Horizons.h5
+          Subfile: AhB.dir
