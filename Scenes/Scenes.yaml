@@ -1,55 +1,211 @@
 
 Scenes:
-  - Name: CenterPanel
+  - Name: 01_CenterPanel
     Composition:
       - Base
       - CameraMotion
-  - Name: CenterPanelSlowdown
-    Composition:
-      - Base
-      - CameraMotion
-      - Slowdown
-  - Name: ModeL2
+      - Segments/01_EarlyInspiral
+  - Name: 01_ModeL2
     Composition:
       - Base
       - ModeBase
       - Modes/L2
-  - Name: ModeL3
+      - Segments/01_EarlyInspiral
+  - Name: 01_ModeL3
     Composition:
       - Base
       - ModeBase
       - Modes/L3
-  - Name: ModeL4
+      - Segments/01_EarlyInspiral
+  - Name: 01_ModeL4
     Composition:
       - Base
       - ModeBase
       - Modes/L4
-  - Name: ModeL5
+      - Segments/01_EarlyInspiral
+  - Name: 01_ModeL5
     Composition:
       - Base
       - ModeBase
       - Modes/L5
-  - Name: ModeL2Slowdown
+      - Segments/01_EarlyInspiral
+
+  - Name: 02_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/02_MidInspiral
+  - Name: 02_ModeL2
     Composition:
       - Base
       - ModeBase
       - Modes/L2
-      - Slowdown
-  - Name: ModeL3Slowdown
+      - Segments/02_MidInspiral
+  - Name: 02_ModeL3
     Composition:
       - Base
       - ModeBase
       - Modes/L3
-      - Slowdown
-  - Name: ModeL4Slowdown
+      - Segments/02_MidInspiral
+  - Name: 02_ModeL4
     Composition:
       - Base
       - ModeBase
       - Modes/L4
-      - Slowdown
-  - Name: ModeL5Slowdown
+      - Segments/02_MidInspiral
+  - Name: 02_ModeL5
     Composition:
       - Base
       - ModeBase
       - Modes/L5
-      - Slowdown
+      - Segments/02_MidInspiral
+
+  - Name: 03_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/03_LateInspiral
+  - Name: 03_ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Segments/03_LateInspiral
+  - Name: 03_ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Segments/03_LateInspiral
+  - Name: 03_ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Segments/03_LateInspiral
+  - Name: 03_ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Segments/03_LateInspiral
+
+  - Name: 04_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/04_EndInspiral
+  - Name: 04_ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Segments/04_EndInspiral
+  - Name: 04_ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Segments/04_EndInspiral
+  - Name: 04_ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Segments/04_EndInspiral
+  - Name: 04_ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Segments/04_EndInspiral
+
+  - Name: 05_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/05_PreMerger
+  - Name: 05_ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Segments/05_PreMerger
+  - Name: 05_ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Segments/05_PreMerger
+  - Name: 05_ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Segments/05_PreMerger
+  - Name: 05_ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Segments/05_PreMerger
+
+  - Name: 06_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/06_Merger
+  - Name: 06_ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Segments/06_Merger
+  - Name: 06_ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Segments/06_Merger
+  - Name: 06_ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Segments/06_Merger
+  - Name: 06_ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Segments/06_Merger
+
+  - Name: 07_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
+      - Segments/07_PostMerger
+  - Name: 07_ModeL2
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L2
+      - Segments/07_PostMerger
+  - Name: 07_ModeL3
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L3
+      - Segments/07_PostMerger
+  - Name: 07_ModeL4
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L4
+      - Segments/07_PostMerger
+  - Name: 07_ModeL5
+    Composition:
+      - Base
+      - ModeBase
+      - Modes/L5
+      - Segments/07_PostMerger

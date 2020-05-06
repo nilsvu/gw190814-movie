@@ -14,7 +14,7 @@ View:
 
 WaveformToVolume:
   Size: 120
-  RadialScale: 8
+  RadialScale: 4
   InvertRotationDirection: True
   EllMax: 3
   ActivationOffset: 10
@@ -42,7 +42,7 @@ TransferFunctions:
           Opacity: 0.03
         LastPeak:
           Position: 0.02
-          Opacity: 0.7
+          Opacity: 0.5
         Colormap: Rainbow Uniform
   - Field: Age
     TransferFunction:
@@ -121,6 +121,9 @@ Trajectories:
       Visibility:
         Start: 56000
         End: 62621
+        FadeOut:
+          TimeMode: Scene
+          Time: 30
 
 # TODO: Exactly align the merger in the horizon data with the waveform and
 # trajectories. Currently it's shifted to merge at t=56000+6621.
