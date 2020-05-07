@@ -6,7 +6,7 @@ Include:
 
 Animation:
   Speed: 200
-  Crop: [1000, 63800]
+  Crop: [1000, 83500]
 
 View:
   Background: [0., 0., 0.]
@@ -84,7 +84,7 @@ Trajectories:
           PhiResolution: 100
         Visibility:
           Start: 0
-          End: 56000
+          End: 76041
         Representation:
           AmbientColor: [0., 0., 0.]
           DiffuseColor: [0., 0., 0.]
@@ -99,7 +99,7 @@ Trajectories:
           PhiResolution: 100
         Visibility:
           Start: 0
-          End: 56000
+          End: 76041
         Representation:
           AmbientColor: [0., 0., 0.]
           DiffuseColor: [0., 0., 0.]
@@ -111,29 +111,27 @@ Trajectories:
       ColorBy: Age
       Visibility:
         Start: 0
-        End: 56000
+        End: 76041
   - Name: SecondaryHorizonTail
     TimeShift:
-      PreShift: 56000
+      PreShift: 76041
     Tail:
       LineWidth: 2
       ColorBy: Age
       Visibility:
-        Start: 56000
-        End: 62621
+        Start: 76041
+        End: 82662
         FadeOut:
           TimeMode: Scene
           Time: 30
 
-# TODO: Exactly align the merger in the horizon data with the waveform and
-# trajectories. Currently it's shifted to merge at t=56000+6621.
 Horizons:
   - Name: PrimaryHorizon
     TimeShift:
-      PreShift: 56000
+      PreShift: 76041
     Visibility:
-      Start: 56000
-      End: 62621
+      Start: 76041
+      End: 82662
     Representation:
       Representation: Surface
       ColorBy: DimlessRicciScalar
@@ -144,10 +142,10 @@ Horizons:
       SpecularColor: [1., 1., 1.]
   - Name: SecondaryHorizon
     TimeShift:
-      PreShift: 56000
+      PreShift: 76041
     Visibility:
-      Start: 56000
-      End: 62621
+      Start: 76041
+      End: 82662
     Representation:
       Representation: Surface
       ColorBy: DimlessRicciScalar
@@ -158,10 +156,10 @@ Horizons:
       SpecularColor: [1., 1., 1.]
   - Name: CommonHorizon
     TimeShift:
-      PreShift: 56000
+      PreShift: 76041
     Visibility:
-      Start: 62621
-      End: 64000
+      Start: 82662
+      End: 85000
     Representation:
       Representation: Surface
       ColorBy: DimlessRicciScalar

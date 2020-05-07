@@ -1,4 +1,5 @@
 
 Animation:
   Replace:
-    Crop: [62750, 63800]
+    Speed: 100
+    Crop: [82710, 83200]

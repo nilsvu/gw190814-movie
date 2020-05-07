@@ -14,7 +14,7 @@ Replace:
       ViewUp: [0., 0., 1.]
       FocalPoint: [0., 0., 0.]
       ViewAngle: 60.
-    - Time: 62500
+    - Time: 82560
       SwingDuration: 5
       Position: [-6., 1., 6.]
       ViewUp: [0., 0., 1.]
