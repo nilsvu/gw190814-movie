@@ -1,0 +1,32 @@
+
+TransferFunctions:
+  AppendElements:
+    - Field: DimlessRicciScalar
+      TransferFunction:
+        Custom:
+          Points:
+            - Position: 0.5
+              Opacity: 1
+            - Position: 0.55
+              Opacity: 1
+          Colormap:
+            Points:
+              - Position: 0.52
+                Color: [0, 0, 0]
+              - Position: 0.56
+                Color: [0.05098039216, 0.3843137255, 0.4509803922]
+            ColorSpace: RGB
+      
+Horizons:
+  - Element: 0
+    Representation:
+      Replace:
+        ColorBy: DimlessRicciScalar
+  - Element: 1
+    Representation:
+      Replace:
+        ColorBy: DimlessRicciScalar
+  - Element: 2
+    Representation:
+      Replace:
+        ColorBy: DimlessRicciScalar

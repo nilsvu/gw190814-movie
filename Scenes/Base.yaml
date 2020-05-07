@@ -59,21 +59,6 @@ TransferFunctions:
         Colormap:
           Name: Grayscale
           Invert: True
-  - Field: DimlessRicciScalar
-    TransferFunction:
-      Custom:
-        Points:
-          - Position: 0.5
-            Opacity: 1
-          - Position: 0.55
-            Opacity: 1
-        Colormap:
-          Points:
-            - Position: 0.52
-              Color: [0, 0, 0]
-            - Position: 0.56
-              Color: [0.05098039216, 0.3843137255, 0.4509803922]
-          ColorSpace: RGB
 
 Trajectories:
   - Name: PrimaryObject
@@ -134,7 +119,6 @@ Horizons:
       End: 82662
     Representation:
       Representation: Surface
-      ColorBy: DimlessRicciScalar
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
       Specular: 0.2
@@ -148,7 +132,6 @@ Horizons:
       End: 82662
     Representation:
       Representation: Surface
-      ColorBy: DimlessRicciScalar
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
       Specular: 0.2
@@ -162,7 +145,6 @@ Horizons:
       End: 85000
     Representation:
       Representation: Surface
-      ColorBy: DimlessRicciScalar
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
       Specular: 0.2
