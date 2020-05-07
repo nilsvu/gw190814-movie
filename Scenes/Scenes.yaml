@@ -10,25 +10,25 @@ Scenes:
       - Base
       - ModeBase
       - Modes/L2
-      - Segments/01_EarlyInspiral
+      - Segments/01_EarlyInspiralModes
   - Name: 01_ModeL3
     Composition:
       - Base
       - ModeBase
       - Modes/L3
-      - Segments/01_EarlyInspiral
+      - Segments/01_EarlyInspiralModes
   - Name: 01_ModeL4
     Composition:
       - Base
       - ModeBase
       - Modes/L4
-      - Segments/01_EarlyInspiral
+      - Segments/01_EarlyInspiralModes
   - Name: 01_ModeL5
     Composition:
       - Base
       - ModeBase
       - Modes/L5
-      - Segments/01_EarlyInspiral
+      - Segments/01_EarlyInspiralModes
 
   - Name: 02_CenterPanel
     Composition:
