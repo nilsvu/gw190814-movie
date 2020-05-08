@@ -150,10 +150,18 @@ Scenes:
       - Modes/L5
       - Segments/05_PreMerger
 
+  - Name: 05_CenterPanel_CloseupColoring
+    Composition:
+      - Base
+      - CameraMotion
+      - CloseupColoring
+      - Segments/05_PreMerger
+
   - Name: 06_CenterPanel
     Composition:
       - Base
       - CameraMotion
+      - CloseupColoring
       - Segments/06_Merger
   - Name: 06_ModeL2
     Composition:
@@ -184,6 +192,7 @@ Scenes:
     Composition:
       - Base
       - CameraMotion
+      - CloseupColoring
       - Segments/07_PostMerger
   - Name: 07_ModeL2
     Composition:
