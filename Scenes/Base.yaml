@@ -16,7 +16,7 @@ WaveformToVolume:
   Size: 120
   RadialScale: 4
   InvertRotationDirection: True
-  EllMax: 3
+  EllMax: 2
   ActivationOffset: 10
   ActivationWidth: 10
   DeactivationWidth: 10
