@@ -10,7 +10,7 @@ Replace:
       SwingDuration: 20
       Position:
         - [0., -100., 80.]
-        - [0., -260., 30.]
+        - [0., -260., 50.]
       ViewUp: [0., 0., 1.]
       FocalPoint: [0., 0., 0.]
       ViewAngle: 60.

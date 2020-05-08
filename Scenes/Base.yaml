@@ -152,7 +152,7 @@ Horizons:
       SpecularColor: [1., 1., 1.]
 
 CameraShots:
-  - Position: [0., -260., 30.]
+  - Position: [0., -260., 50.]
     ViewUp: [0., 0., 1.]
     FocalPoint: [0., 0., 0.]
     ViewAngle: 60.
