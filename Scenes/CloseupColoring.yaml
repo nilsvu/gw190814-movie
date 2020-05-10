@@ -5,4 +5,4 @@ WaveformToVolume:
 
 VolumeRepresentation:
   Replace:
-    ScalarOpacityUnitDistance: 1.5
+    ScalarOpacityUnitDistance: 1.3
