@@ -188,11 +188,17 @@ Scenes:
       - Modes/L5
       - Segments/06_Merger
 
-  - Name: 07_CenterPanel
+  - Name: 07_CenterPanel_CloseupColoring
     Composition:
       - Base
       - CameraMotion
       - CloseupColoring
+      - Segments/07_PostMerger
+
+  - Name: 07_CenterPanel
+    Composition:
+      - Base
+      - CameraMotion
       - Segments/07_PostMerger
   - Name: 07_ModeL2
     Composition:
