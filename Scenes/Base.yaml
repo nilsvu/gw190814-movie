@@ -121,7 +121,7 @@ Horizons:
       Representation: Surface
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
-      Specular: 0.2
+      Specular: 0.1
       SpecularPower: 10
       SpecularColor: [1., 1., 1.]
   - Name: SecondaryHorizon
@@ -134,7 +134,7 @@ Horizons:
       Representation: Surface
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
-      Specular: 0.2
+      Specular: 0.1
       SpecularPower: 10
       SpecularColor: [1., 1., 1.]
   - Name: CommonHorizon
@@ -147,7 +147,7 @@ Horizons:
       Representation: Surface
       AmbientColor: [0., 0., 0.]
       DiffuseColor: [0., 0., 0.]
-      Specular: 0.2
+      Specular: 0.1
       SpecularPower: 10
       SpecularColor: [1., 1., 1.]
 
