@@ -9,5 +9,8 @@ TransferFunctions:
   - Element: 0
     TransferFunction:
       Peaks:
+        FirstPeak:
+          Replace:
+            Opacity: 0.05
         Replace:
-          Colormap: Greens
+          Colormap: GnBu

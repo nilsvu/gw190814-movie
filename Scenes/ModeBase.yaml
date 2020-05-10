@@ -9,9 +9,12 @@ TransferFunctions:
   - Element: 0
     TransferFunction:
       Peaks:
-        FirstPeak:
-          Replace:
-            Position: 0.01
-        LastPeak:
-          Replace:
-            Position: 0.15
+        Replace:
+          NumPeaks: 10
+          FirstPeak:
+            Position: 0.02
+            Opacity: 0.2
+          LastPeak:
+            Position: 0.3
+            Opacity: 0.4
+          Logarithmic: True

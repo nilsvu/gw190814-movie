@@ -10,4 +10,4 @@ TransferFunctions:
     TransferFunction:
       Peaks:
         Replace:
-          Colormap: Oranges
+          Colormap: BuPu
