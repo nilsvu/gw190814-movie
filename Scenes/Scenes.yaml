@@ -155,7 +155,7 @@ Scenes:
       - Base
       - CameraMotion
       - CloseupColoring
-      - Segments/05_PreMerger
+      - Segments/05_PreMergerCloseup
 
   - Name: 06_CenterPanel
     Composition:
