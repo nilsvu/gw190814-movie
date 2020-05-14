@@ -18,3 +18,8 @@ TransferFunctions:
             Position: 0.3
             Opacity: 0.4
           Logarithmic: True
+
+View:
+  BackgroundTexture:
+    Replace:
+      Datasource: SkyboxModes
