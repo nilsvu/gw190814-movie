@@ -95,7 +95,7 @@ Trajectories:
           SpecularPower: 10
           SpecularColor: [1., 1., 1.]
     Tail:
-      LineWidth: 1
+      LineWidth: 1.5
       ColorBy: Age
       Visibility:
         Start: 0
@@ -104,7 +104,7 @@ Trajectories:
     TimeShift:
       PreShift: 76041
     Tail:
-      LineWidth: 1
+      LineWidth: 1.5
       ColorBy: Age
       Visibility:
         Start: 76041
