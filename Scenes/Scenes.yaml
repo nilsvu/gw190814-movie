@@ -10,55 +10,13 @@ Scenes:
       - Base
       - ModeBase
       - Modes/L2
-      - Segments/01_EarlyInspiralModes
+      - Segments/01_EarlyInspiralL2
   - Name: 01_ModeL3
     Composition:
       - Base
       - ModeBase
       - Modes/L3
-      - Segments/01_EarlyInspiralModes
-  - Name: 01_ModeL4
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L4
-      - Segments/01_EarlyInspiralModes
-  - Name: 01_ModeL5
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L5
-      - Segments/01_EarlyInspiralModes
-
-  - Name: 02_CenterPanel
-    Composition:
-      - Base
-      - CameraMotion
-      - Segments/02_MidInspiral
-  - Name: 02_ModeL2
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L2
-      - Segments/02_MidInspiral
-  - Name: 02_ModeL3
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L3
-      - Segments/02_MidInspiral
-  - Name: 02_ModeL4
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L4
-      - Segments/02_MidInspiral
-  - Name: 02_ModeL5
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L5
-      - Segments/02_MidInspiral
+      - Segments/01_EarlyInspiralL3
 
   - Name: 03_CenterPanel
     Composition:
@@ -82,13 +40,7 @@ Scenes:
       - Base
       - ModeBase
       - Modes/L4
-      - Segments/03_LateInspiral
-  - Name: 03_ModeL5
-    Composition:
-      - Base
-      - ModeBase
-      - Modes/L5
-      - Segments/03_LateInspiral
+      - Segments/03_LateInspiralL4
 
   - Name: 04_CenterPanel
     Composition:
@@ -118,7 +70,7 @@ Scenes:
       - Base
       - ModeBase
       - Modes/L5
-      - Segments/04_EndInspiral
+      - Segments/04_EndInspiralL5
 
   - Name: 05_CenterPanel
     Composition:
@@ -193,7 +145,7 @@ Scenes:
       - Base
       - CameraMotion
       - CloseupColoring
-      - Segments/07_PostMerger
+      - Segments/07_PostMergerCloseup
 
   - Name: 07_CenterPanel
     Composition:

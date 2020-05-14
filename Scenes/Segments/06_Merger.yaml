@@ -6,4 +6,4 @@ Animation:
     # higher-resolution horizon data.
     Speed: 10
     # The common horizon appears at t=82662M (plunging for ~20M)
-    Crop: [82560, 82710]
+    Crop: [82560, 82730]
