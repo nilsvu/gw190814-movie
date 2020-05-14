@@ -1,0 +1,7 @@
+
+Include:
+  - CloseupColoring
+
+VolumeRepresentation:
+  Replace:
+    ScalarOpacityUnitDistance: 0.8
