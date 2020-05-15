@@ -1,0 +1,8 @@
+
+TransferFunctions:
+  - Element: 0
+    TransferFunction:
+      Peaks:
+        FirstPeak:
+          Replace:
+            Opacity: 0.3

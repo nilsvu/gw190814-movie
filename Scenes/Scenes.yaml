@@ -46,6 +46,7 @@ Scenes:
     Composition:
       - Base
       - CameraMotion
+      - LateColoring
       - Segments/04_EndInspiral
   - Name: 04_ModeL2
     Composition:
@@ -76,6 +77,7 @@ Scenes:
     Composition:
       - Base
       - CameraMotion
+      - LateColoring
       - Segments/05_PreMerger
   - Name: 05_ModeL2
     Composition:
@@ -151,6 +153,7 @@ Scenes:
     Composition:
       - Base
       - CameraMotion
+      - LateColoring
       - CloseupColoringPostMerger
       - Segments/07_PostMerger
   - Name: 07_ModeL2
