@@ -14,7 +14,7 @@ View:
 
 VolumeRepresentation:
   Replace:
-    ScalarOpacityUnitDistance: 0.4
+    ScalarOpacityUnitDistance: 0.3
 
 Horizons:
   - Element: 0
