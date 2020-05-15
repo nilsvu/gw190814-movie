@@ -7,9 +7,14 @@ Animation:
   Replace:
     FreezeTime: 82659 # 3M before merger
 
+View:
+  BackgroundTexture:
+    Replace:
+      Datasource: SkyboxCloseup
+
 VolumeRepresentation:
   Replace:
-    ScalarOpacityUnitDistance: 0.6
+    ScalarOpacityUnitDistance: 0.4
 
 Horizons:
   - Element: 0
