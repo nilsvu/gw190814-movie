@@ -1,0 +1,106 @@
+
+Scenes:
+    - Name: 01_CenterPanel
+      Composition:
+        - Base
+        - AlternativeColor/Base
+        - CameraMotion
+        - Segments/01_EarlyInspiral
+    - Name: 01_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/01_EarlyInspiralL2
+  
+    - Name: 03_CenterPanel
+      Composition:
+        - Base
+        - AlternativeColor/Base
+        - CameraMotion
+        - Segments/03_LateInspiral
+    - Name: 03_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/03_LateInspiral
+  
+    - Name: 04_CenterPanel
+      Composition:
+        - Base
+        - AlternativeColor/Base
+        - CameraMotion
+        - LateColoring
+        - Segments/04_EndInspiral
+    - Name: 04_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/04_EndInspiral
+  
+    - Name: 05_CenterPanel
+      Composition:
+        - Base
+        - AlternativeColor/Base
+        - CameraMotion
+        - LateColoring
+        - Segments/05_PreMerger
+    - Name: 05_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/05_PreMerger
+  
+    - Name: 05_CenterPanel_CloseupColoring
+      Composition:
+        - Base
+        - CameraMotion
+        - CloseupColoring
+        - AlternativeColor/Closeup
+        - Segments/05_PreMergerCloseup
+  
+    - Name: 06_CenterPanel
+      Composition:
+        - Base
+        - CameraMotion
+        - CloseupColoring
+        - AlternativeColor/Closeup
+        - Segments/06_Merger
+    - Name: 06_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/06_Merger
+  
+    - Name: 07_CenterPanel_CloseupColoring
+      Composition:
+        - Base
+        - CameraMotion
+        - CloseupColoring
+        - AlternativeColor/Closeup
+        - Segments/07_PostMergerCloseup
+  
+    - Name: 07_CenterPanel
+      Composition:
+        - Base
+        - AlternativeColor/Base
+        - CameraMotion
+        - LateColoring
+        - CloseupColoringPostMerger
+        - Segments/07_PostMerger
+    - Name: 07_ModeL2
+      Composition:
+        - Base
+        - ModeBase
+        - Modes/L2
+        - AlternativeColor/L2
+        - Segments/07_PostMerger

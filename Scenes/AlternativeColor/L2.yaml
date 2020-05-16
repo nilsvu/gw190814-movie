@@ -1,0 +1,8 @@
+# Overrides to show only the 2-2 mode of the strain
+
+TransferFunctions:
+  - Element: 0
+    TransferFunction:
+      Peaks:
+        Replace:
+          Colormap: Oranges
