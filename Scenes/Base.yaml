@@ -63,6 +63,9 @@ TransferFunctions:
           Name: Grayscale
           Invert: True
 
+# NR and EOB data is aligned such that their mergers coincide. The transition
+# from the EOB to the NR trajectory happens between segments 4 and 5.
+
 Trajectories:
   - Name: PrimaryObject
     Objects:
@@ -72,7 +75,7 @@ Trajectories:
           PhiResolution: 100
         Visibility:
           Start: 0
-          End: 76041
+          End: 78000
         Representation:
           AmbientColor: [0., 0., 0.]
           DiffuseColor: [0., 0., 0.]
@@ -87,7 +90,7 @@ Trajectories:
           PhiResolution: 100
         Visibility:
           Start: 0
-          End: 76041
+          End: 78000
         Representation:
           AmbientColor: [0., 0., 0.]
           DiffuseColor: [0., 0., 0.]
@@ -99,7 +102,7 @@ Trajectories:
       ColorBy: Age
       Visibility:
         Start: 0
-        End: 76041
+        End: 78000
   - Name: SecondaryHorizonTail
     TimeShift:
       PreShift: 76041
@@ -107,7 +110,7 @@ Trajectories:
       LineWidth: 1.5
       ColorBy: Age
       Visibility:
-        Start: 76041
+        Start: 78000
         End: 82662
         FadeOut:
           TimeMode: Scene
@@ -118,7 +121,7 @@ Horizons:
     TimeShift:
       PreShift: 76041
     Visibility:
-      Start: 76041
+      Start: 78000
       End: 82662
     Representation:
       Representation: Surface
@@ -131,7 +134,7 @@ Horizons:
     TimeShift:
       PreShift: 76041
     Visibility:
-      Start: 76041
+      Start: 78000
       End: 82662
     Representation:
       Representation: Surface
