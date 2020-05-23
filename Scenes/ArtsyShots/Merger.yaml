@@ -2,6 +2,7 @@
 Base:
   - Base
   - CloseupColoring
+  - Resolutions/4k
 
 Animation:
   Replace:
@@ -11,6 +12,10 @@ View:
   BackgroundTexture:
     Replace:
       Datasource: SkyboxCloseup
+
+WaveformToVolume:
+  Replace:
+    SpatialResolution: 600
 
 VolumeRepresentation:
   Replace:

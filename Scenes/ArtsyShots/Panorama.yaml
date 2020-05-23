@@ -1,0 +1,17 @@
+
+Base:
+  - Base
+  - Resolutions/4k
+
+Animation:
+  Replace:
+    Speed: 200
+    FrameRate: 2
+    Crop: [81600, 82900]
+
+WaveformToVolume:
+  Replace:
+    RadialScale: 1.5
+
+Replace:
+  Trajectories: []

@@ -1,0 +1,4 @@
+
+WaveformToVolume:
+  Replace:
+    EllMax: 5
