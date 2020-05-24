@@ -15,7 +15,7 @@ View:
 
 WaveformToVolume:
   Replace:
-    SpatialResolution: 600
+    SpatialResolution: 800
 
 VolumeRepresentation:
   Replace:
