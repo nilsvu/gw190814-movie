@@ -13,4 +13,4 @@ TransferFunctions:
           Replace:
             Opacity: 0.05
         Replace:
-          Colormap: GnBu
+          Colormap: Oranges
