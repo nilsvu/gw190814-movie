@@ -1,7 +1,9 @@
 dist/
 data/
-.vscode/
+scratch/
+Resources/
 Datasources.yaml
+.vscode/
 Adobe Premiere Pro Auto-Save/
 Adobe Premiere Pro Video Previews/
 
