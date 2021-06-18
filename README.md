@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4983095.svg)](https://doi.org/10.5281/zenodo.4983095)
 
 <p align="center" id="banner"><img src="https://github.com/nilsleiffischer/gw190814-movie/blob/master/docs/banner.png?raw=true"></p>
 
